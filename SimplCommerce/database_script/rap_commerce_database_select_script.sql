@@ -3,7 +3,7 @@ SELECT *  FROM [dbo].[Catalog_Product]
 
 SELECT *  FROM [dbo].[Core_Widget]
 
-SELECT *  FROM [dbo].[Core_Widget]
+SELECT *  FROM [dbo].[Localization_Resource]
 
 ----------------------------------------------------------------
 ----------------------------------------------------------------
