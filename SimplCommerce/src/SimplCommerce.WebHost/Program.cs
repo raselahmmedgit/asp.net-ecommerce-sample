@@ -76,7 +76,7 @@ void ConfigureService()
 
     builder.Services.AddSwaggerGen(c =>
     {
-        c.SwaggerDoc("v1", new OpenApiInfo { Title = "SimplCommerce API", Version = "v1" });
+        c.SwaggerDoc("v1", new OpenApiInfo { Title = "Rapid System API", Version = "v1" });
     });
 }
 
@@ -107,7 +107,7 @@ void Configure()
     app.UseSwagger();
     app.UseSwaggerUI(c =>
     {
-        c.SwaggerEndpoint("/swagger/v1/swagger.json", "SimplCommerce API V1");
+        c.SwaggerEndpoint("/swagger/v1/swagger.json", "Rapid System API V1");
     });
     app.UseCookiePolicy();
     app.UseCustomizedIdentity();
