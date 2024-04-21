@@ -16,7 +16,7 @@ namespace SimplCommerce.WebHost.IdentityServer
         public static IEnumerable<ApiResource> Apis =>
             new List<ApiResource>
             {
-                new ApiResource("api.simplcommerce", "Rapid System API")
+                new ApiResource("api.simplcommerce", "Simpl Commerce API")
             };
 
         public static IEnumerable<Client> Clients =>
